@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(190, 190, 190);
+}
+h1, p {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.main {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}

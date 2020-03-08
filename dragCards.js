@@ -1,10 +1,3 @@
-let rect1 = document.getElementById("rect1");
-let dx;
-let dy;
-
-rect1.addEventListener("mousedown", md);
-rect1.addEventListener("mousemove", mm);
-rect1.addEventListener("mouseup", mup);
 
 function md(e) {
 
@@ -26,6 +19,6 @@ function mm(e) {
 }
 
 function mup(e) {
-  
+
     this.setAttribute("dragging", "no");
 }

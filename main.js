@@ -44,6 +44,5 @@ function startGame() {
     item.addEventListener("mousemove", mm);
     item.addEventListener("mouseup", mup);
   });
-
-
 }// end startGame
+startGame();

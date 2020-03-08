@@ -23,7 +23,7 @@ function createCards (){
         for (let seed of seeds) {
             //cards.push("/Carte/"+i+seed+"jpg");
             let img1 = document.createElementNS("http://www.w3.org/2000/svg", "image");
-            img1.setAttribute("href", "../Carte/"+i+seed+".jpg");
+            img1.setAttribute("href", "./Carte/"+i+seed+".jpg");
             img1.setAttribute("x", "50");
             img1.setAttribute("y", "50");
             img1.setAttribute("seed", seed);

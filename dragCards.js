@@ -18,6 +18,7 @@ function md(e) {
 function mm(e) {
 
   if (this.getAttribute("dragging") == "yes") {
+      e.preventDefault();
       if (e.type === "touchmove") {
         this.setAttribute("x", (e.touches[0].clientX - dx).toString());
         this.setAttribute("y", (e.touches[0].clientY - dy).toString());

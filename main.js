@@ -43,6 +43,10 @@ function startGame() {
     item.addEventListener("mousedown", md);
     item.addEventListener("mousemove", mm);
     item.addEventListener("mouseup", mup);
+
+    item.addEventListener("touchstart", md);
+    item.addEventListener("touchmove", mm);
+    item.addEventListener("touchend", mup);
   });
 }// end startGame
 startGame();

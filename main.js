@@ -1,12 +1,13 @@
 const table = document.getElementById("table");
 createCards();
 let positionStart;
+let eugenio;
 
 
 
 
 function startGame() {
-  let eugenio = new Playes("Eugenio", 1);
+  eugenio = new Playes("Eugenio", 1);
   let mario = new Playes("Mario", 2);
   console.log(eugenio.name);
 

@@ -12,7 +12,11 @@ function md(e) {
   let dpy = this.parentElement.getBoundingClientRect().y;
   dx = dpx + dx;
   dy = dpy + dy;
-  this.setAttribute("dragging", "yes")
+  this.setAttribute("dragging", "yes");
+  let parent = this.parentElement;
+  parent.removeChild(this);
+  parent.appendChild(this);
+
 }
 
 function mm(e) {

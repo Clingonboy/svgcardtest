@@ -52,6 +52,7 @@ class Playes {
     }
   }
 
+  // Uso della funzione .sort per ordinare le carte.
   orderCards () {
     this.myCards.sort(function (a, b) {
       if (parseInt(a.getAttribute("value")) < parseInt(b.getAttribute("value"))) {

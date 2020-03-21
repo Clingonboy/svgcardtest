@@ -49,5 +49,14 @@ function startGame() {
     item.addEventListener("touchmove", mm);
     item.addEventListener("touchend", mup);
   });
+  body = document.getElementById("body");
+  body.addEventListener("mousedown", (e)=>{e.preventDefault();})
+  body.addEventListener("mousemove", (e)=>{e.preventDefault();})
+  body.addEventListener("mouseup", (e)=>{e.preventDefault();})
+
+  body.addEventListener("touchstart", (e)=>{e.preventDefault();})
+  body.addEventListener("touchmove", (e)=>{e.preventDefault();})
+  body.addEventListener("touchend", (e)=>{e.preventDefault();})
 }// end startGame
+
 startGame();

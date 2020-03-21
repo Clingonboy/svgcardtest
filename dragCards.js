@@ -1,4 +1,7 @@
+// Funzioni applicate agli eventi del click sulla carta
+// per gestire il grag and drop
 
+// Mouse down
 function md(e) {
   e.preventDefault();
   if (e.type === "touchstart") {
@@ -19,8 +22,8 @@ function md(e) {
 
 }
 
+// Mouse move
 function mm(e) {
-
   if (this.getAttribute("dragging") == "yes") {
     e.preventDefault();
     if (e.type === "touchmove") {
@@ -33,6 +36,7 @@ function mm(e) {
   }
 }
 
+// Mouse up
 function mup(e) {
   e.preventDefault();
   this.setAttribute("dragging", "no");

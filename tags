@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+.main	main.css	/^.main {$/;"	c
+AnonymousFunction485be22e0100	util.js	/^    this.myCards.sort(function (a, b) {$/;"	f	function:myCards
+Carta	main1.js	/^ class Carta {$/;"	c
+Playes	util.js	/^class Playes {$/;"	c
+Prova DRAG con SVG	drag.html	/^    <h1>Prova DRAG con SVG<\/h1>$/;"	h
+Prova applicazione gioco carte con SVG	index.html	/^    <h1>Prova applicazione gioco carte con SVG<\/h1>$/;"	h
+body	main.css	/^body {$/;"	s
+cards	util.js	/^const cards = [];$/;"	C
+constructor	main1.js	/^     constructor (father, imgname){$/;"	m	class:Carta
+constructor	util.js	/^  constructor (name, position) {$/;"	m	class:Playes
+createCards	util.js	/^function createCards (){$/;"	f
+createCarta	main1.js	/^ function createCarta (){$/;"	f
+createImage	main1.js	/^     createImage (){$/;"	m	class:Carta
+dx	drag.js	/^let dx;$/;"	v
+dy	drag.js	/^let dy;$/;"	v
+eugenio	main.js	/^let eugenio;$/;"	v
+eventName	main1.js	/^let eventName;$/;"	v
+globalID	main1.js	/^let globalID;$/;"	v
+h1	main.css	/^h1, p {$/;"	s
+leftOpp	util.js	/^      leftOpp : [],$/;"	p	class:Playes.constructor.pcard
+md	drag.js	/^function md(e) {$/;"	c
+md	dragCards.js	/^function md(e) {$/;"	c
+member	util.js	/^      member: []$/;"	p	class:Playes.constructor.pcard
+mm	drag.js	/^function mm(e) {$/;"	f
+mm	dragCards.js	/^function mm(e) {$/;"	f
+mouseCard3	main1.js	/^function mouseCard3 (e) {$/;"	f
+mouseClickCard	main1.js	/^function mouseClickCard (e) {$/;"	f
+mouseOver	main1.js	/^function mouseOver (e) {$/;"	f
+move	main1.js	/^function move () {$/;"	f
+mup	drag.js	/^function mup(e) {$/;"	c
+mup	dragCards.js	/^function mup(e) {$/;"	c
+my	util.js	/^      my : [],$/;"	p	class:Playes.constructor.pcard
+orderCards	util.js	/^  orderCards () {$/;"	m	class:Playes
+p	main.css	/^h1, p {$/;"	s
+pcard	util.js	/^    this.pcard = {$/;"	c	class:Playes.constructor
+positionStart	main.js	/^  positionStart = function () {$/;"	f	function:startGame
+positionStart	main.js	/^let positionStart;$/;"	v
+rect1	drag.js	/^let rect1 = document.getElementById("rect1");$/;"	v
+rightOpp	util.js	/^      rightOpp : [],$/;"	p	class:Playes.constructor.pcard
+shuffle	util.js	/^function shuffle(array) {$/;"	f
+startGame	main.js	/^function startGame() {$/;"	f
+table	main.js	/^const table = document.getElementById("table");$/;"	C
+table	main1.js	/^ const table = document.getElementById("table");$/;"	C
